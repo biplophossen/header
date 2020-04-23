@@ -1,0 +1,75 @@
+body{
+	 
+	 
+}
+html{
+	scroll-behavior: smooth;
+}
+/*================*/
+/* NAVBAR START */
+/*================*/
+.navbar{
+	border-bottom: 2px solid rgba(255, 255, 255, 0.17);
+}
+.nav-link{
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-left: 9px;
+	font-family: Arial;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+/*================*/
+/* NAVBAR END */
+/*================*/
+
+
+
+
+/*================*/
+/* HEADER SECTION START */
+/*================*/
+ 
+#header-section{
+	background-image:linear-gradient(rgba(51, 51, 51, 0.6),rgba(51, 51, 51, 0.6)),url(../img/hero-bg.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 100vh;
+	overflow: hidden;
+	background-attachment: fixed;
+	clip-path: polygon(100% 0%, 100% 80%, 50% 100%, 0 80%, 0 0);
+	position: relative;
+}
+.main-row{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+.btn{
+	margin-top: 20px;
+}
+
+
+@media(max-width:575px){
+	.custom h1{
+		font-size: 22px;
+	}
+	.custom span{
+	     float: none;
+		width: 100%;
+		margin: auto;
+	}
+	.hader-title{
+		font-size: 15px;
+		width: 100%;
+		margin: auto;
+	}
+	.navbar-nav{
+		background-color: #333;
+		 
+	}
+}

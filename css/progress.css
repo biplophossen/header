@@ -1,0 +1,76 @@
+
+svg.radial-progress {
+  height: auto;
+  max-width: 200px;
+  padding: 1em;
+  transform: rotate(-90deg);
+  width: 100%;
+}
+
+svg.radial-progress circle {
+  fill: rgba(0,0,0,0);
+  stroke: #fff;
+  stroke-dashoffset: 219.91148575129; 
+  stroke-width: 10;
+}
+
+svg.radial-progress circle.incomplete { opacity: 0.25; }
+
+svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
+
+svg.radial-progress text {
+  fill: #fff;
+  text-anchor: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*custom css*/
+svg.radial-progress circle{
+	stroke-width: 7;
+}
+svg.radial-progress text{
+	fill: #333;
+	font-size: 15px;
+}
+svg.web-design circle{
+	stroke: #9e1bf0;
+}
+svg.html-css circle{
+	stroke: #f80cc2;
+}
+svg.wordpress circle{
+	stroke: #4cf80c;
+}
+svg.graphic-design circle{
+	stroke: #0ad4f8;
+}
+#skill-section h2::after{
+	content: "";
+	height: 3px;
+	background-color: #fff;
+	display: block;
+	width: 90px;
+	margin: auto;
+	margin-top: 20px;
+}
+#skill-section h4{
+	font-size: 22px;
+	text-transform: capitalize;
+}
+#skill-section p{
+	width: 50%;
+	margin: auto;
+}
+
+
+
+
